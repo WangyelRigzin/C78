@@ -1,10 +1,10 @@
-var images = ["me.png","SISTER.jpg", "DAD.jpg" , "MOM.jpg"];
-            var names = ["Family Book","Wangyel rigzin", "Chimmi yangzom", "Tshewang rinzin", "Tshering wangmo"];
+var images = ["ME.jpg","SISTER.jpg", "DAD.jpg" , "MOM.jpg","ME.jpg"];
+            var names = ["Family Book","Chimmi", "Tshewang", "Tshering", "Wangyel"];
             var i = 0;
             function update()
             {
                 i++;
-                var numbers_of_family_member_in_array = 5
+                var numbers_of_family_member_in_array = 4
                 if(i > numbers_of_family_member_in_array )
                 {
                     i = 0;
